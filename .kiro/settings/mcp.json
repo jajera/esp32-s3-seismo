@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "espressif-docs": {
+      "url": "https://mcp.espressif.com/docs"
+    }
+  }
+}
