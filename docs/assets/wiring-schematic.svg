@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 820" width="1180" height="820" role="img" aria-label="Schematic wiring: ESP32-S3 to LSM6DSO (I2C) and ST7789 (SPI), with 3V3 and GND nets">
+<rect width="1180" height="820" fill="#f5f5f2"/>
+<text x="48" y="54" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#1c1e20">Wiring — pad to pad</text>
+<text x="50" y="86" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#6e7376">One colour per net — trace each wire end to end. IMU left row (INT1…OCS_A): leave open.</text>
+<rect x="50" y="108" width="26" height="6" rx="3" fill="#c0392b"/>
+<text x="82" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">3V3</text>
+<rect x="128" y="108" width="26" height="6" rx="3" fill="#2b2d2f"/>
+<text x="160" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">GND</text>
+<rect x="206" y="108" width="26" height="6" rx="3" fill="#1f8a70"/>
+<text x="238" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">I2C SCL</text>
+<rect x="316" y="108" width="26" height="6" rx="3" fill="#2e86de"/>
+<text x="348" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">I2C SDA</text>
+<rect x="426" y="108" width="26" height="6" rx="3" fill="#e67e22"/>
+<text x="458" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">SPI SCK</text>
+<rect x="536" y="108" width="26" height="6" rx="3" fill="#8e44ad"/>
+<text x="568" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">SPI MOSI</text>
+<rect x="654" y="108" width="26" height="6" rx="3" fill="#16a085"/>
+<text x="686" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">SPI CS</text>
+<rect x="756" y="108" width="26" height="6" rx="3" fill="#d81b60"/>
+<text x="788" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">SPI DC</text>
+<rect x="858" y="108" width="26" height="6" rx="3" fill="#f1c40f"/>
+<text x="890" y="116" font-family="DejaVu Sans, sans-serif" font-size="14" fill="#1c1e20">SPI RES</text>
+<path d="M 320 213.0 C 570.0 213.0, 570.0 213.0, 820 213.0" fill="none" stroke="#c0392b" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="213.0" r="5" fill="#c0392b"/>
+<circle cx="820" cy="213.0" r="5" fill="#c0392b"/>
+<path d="M 320 213.0 C 570.0 213.0, 570.0 247.0, 820 247.0" fill="none" stroke="#c0392b" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="213.0" r="5" fill="#c0392b"/>
+<circle cx="820" cy="247.0" r="5" fill="#c0392b"/>
+<path d="M 320 247.0 C 570.0 247.0, 570.0 281.0, 820 281.0" fill="none" stroke="#2b2d2f" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="247.0" r="5" fill="#2b2d2f"/>
+<circle cx="820" cy="281.0" r="5" fill="#2b2d2f"/>
+<path d="M 320 247.0 C 570.0 247.0, 570.0 315.0, 820 315.0" fill="none" stroke="#2b2d2f" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="247.0" r="5" fill="#2b2d2f"/>
+<circle cx="820" cy="315.0" r="5" fill="#2b2d2f"/>
+<path d="M 320 315.0 C 570.0 315.0, 570.0 349.0, 820 349.0" fill="none" stroke="#1f8a70" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="315.0" r="5" fill="#1f8a70"/>
+<circle cx="820" cy="349.0" r="5" fill="#1f8a70"/>
+<path d="M 320 281.0 C 570.0 281.0, 570.0 383.0, 820 383.0" fill="none" stroke="#2e86de" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="281.0" r="5" fill="#2e86de"/>
+<circle cx="820" cy="383.0" r="5" fill="#2e86de"/>
+<path d="M 320 213.0 C 570.0 213.0, 570.0 499.0, 820 499.0" fill="none" stroke="#c0392b" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="213.0" r="5" fill="#c0392b"/>
+<circle cx="820" cy="499.0" r="5" fill="#c0392b"/>
+<path d="M 320 247.0 C 570.0 247.0, 570.0 567.0, 820 567.0" fill="none" stroke="#2b2d2f" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="247.0" r="5" fill="#2b2d2f"/>
+<circle cx="820" cy="567.0" r="5" fill="#2b2d2f"/>
+<path d="M 320 383.0 C 570.0 383.0, 570.0 601.0, 820 601.0" fill="none" stroke="#e67e22" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="383.0" r="5" fill="#e67e22"/>
+<circle cx="820" cy="601.0" r="5" fill="#e67e22"/>
+<path d="M 320 349.0 C 570.0 349.0, 570.0 635.0, 820 635.0" fill="none" stroke="#8e44ad" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="349.0" r="5" fill="#8e44ad"/>
+<circle cx="820" cy="635.0" r="5" fill="#8e44ad"/>
+<path d="M 320 417.0 C 570.0 417.0, 570.0 669.0, 820 669.0" fill="none" stroke="#16a085" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="417.0" r="5" fill="#16a085"/>
+<circle cx="820" cy="669.0" r="5" fill="#16a085"/>
+<path d="M 320 451.0 C 570.0 451.0, 570.0 703.0, 820 703.0" fill="none" stroke="#d81b60" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="451.0" r="5" fill="#d81b60"/>
+<circle cx="820" cy="703.0" r="5" fill="#d81b60"/>
+<path d="M 320 485.0 C 570.0 485.0, 570.0 737.0, 820 737.0" fill="none" stroke="#f1c40f" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="485.0" r="5" fill="#f1c40f"/>
+<circle cx="820" cy="737.0" r="5" fill="#f1c40f"/>
+<path d="M 320 519.0 C 570.0 519.0, 570.0 533.0, 820 533.0" fill="none" stroke="#c0392b" stroke-width="3.5" opacity="0.9"/>
+<circle cx="320" cy="519.0" r="5" fill="#c0392b"/>
+<circle cx="820" cy="533.0" r="5" fill="#c0392b"/>
+<rect x="74" y="155" width="250" height="386" rx="12" fill="#e1e1dd"/><rect x="70" y="150" width="250" height="386" rx="12" fill="#ffffff" stroke="#4a6078" stroke-width="3"/><rect x="70" y="150" width="250" height="34" rx="12" fill="#4a6078"/><rect x="70" y="168" width="250" height="16" fill="#4a6078"/><text x="195.0" y="174" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#ffffff">ESP32-S3 (N16R8)</text>
+<rect x="824" y="155" width="250" height="250" rx="12" fill="#e1e1dd"/><rect x="820" y="150" width="250" height="250" rx="12" fill="#ffffff" stroke="#1f8a70" stroke-width="3"/><rect x="820" y="150" width="250" height="34" rx="12" fill="#1f8a70"/><rect x="820" y="168" width="250" height="16" fill="#1f8a70"/><text x="945.0" y="174" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#ffffff">LSM6DSO (IMU)</text>
+<rect x="824" y="441" width="250" height="318" rx="12" fill="#e1e1dd"/><rect x="820" y="436" width="250" height="318" rx="12" fill="#ffffff" stroke="#e67e22" stroke-width="3"/><rect x="820" y="436" width="250" height="34" rx="12" fill="#e67e22"/><rect x="820" y="454" width="250" height="16" fill="#e67e22"/><text x="945.0" y="460" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="700" fill="#ffffff">ST7789 (TFT)</text>
+<text x="306" y="218.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">3V3</text>
+<text x="306" y="252.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GND</text>
+<text x="306" y="286.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO8</text>
+<text x="306" y="320.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO18</text>
+<text x="306" y="354.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO11</text>
+<text x="306" y="388.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO12</text>
+<text x="306" y="422.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO10</text>
+<text x="306" y="456.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO9</text>
+<text x="306" y="490.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO7</text>
+<text x="306" y="524.0" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GPIO21</text>
+<text x="834" y="218.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">VDD</text>
+<text x="834" y="252.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">CS</text>
+<text x="834" y="286.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GND</text>
+<text x="834" y="320.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SDO</text>
+<text x="834" y="354.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SCL</text>
+<text x="834" y="388.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SDA</text>
+<text x="834" y="504.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">VDD</text>
+<text x="834" y="538.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">BL</text>
+<text x="834" y="572.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">GND</text>
+<text x="834" y="606.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SCL</text>
+<text x="834" y="640.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">SDA</text>
+<text x="834" y="674.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">CS</text>
+<text x="834" y="708.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">DC</text>
+<text x="834" y="742.0" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#1c1e20">RES</text>
+<text x="50" y="796" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#6e7376">BL to 3V3 or GPIO21 · don’t tie TFT SDA to IMU SDA · S3 underside silk is mirrored vs top.</text>
+</svg>

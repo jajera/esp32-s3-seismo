@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Seismo waveform">
+  <rect width="64" height="64" rx="12" fill="#121416"/>
+  <!-- intensity bar nod to the TFT UI -->
+  <g fill="#e67e22">
+    <rect x="12" y="13" width="4" height="5" rx="1"/>
+    <rect x="18" y="13" width="4" height="5" rx="1"/>
+    <rect x="24" y="13" width="4" height="5" rx="1"/>
+    <rect x="30" y="13" width="4" height="5" rx="1"/>
+    <rect x="36" y="13" width="4" height="5" rx="1" opacity="0.5"/>
+    <rect x="42" y="13" width="4" height="5" rx="1" opacity="0.5"/>
+    <rect x="48" y="13" width="4" height="5" rx="1" opacity="0.5"/>
+  </g>
+  <!-- seismogram trace -->
+  <path d="M8 38 h8 l4-12 l6 24 l5-18 l4 10 h12"
+        fill="none" stroke="#6fcf97" stroke-width="3.5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
