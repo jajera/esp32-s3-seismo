@@ -20,7 +20,7 @@ What actually passed on this bench. Detail lives in each [phase](phases/00-usb-e
 | 2 | **Pass** | TFT 3V3 / GND / BL. |
 | 3 | **Pass** | IMU power + CS→3V3, SDO→GND. |
 | 4 | **Pass** | I2C: `0x6A` (IMU). Also sees `0x7E` (ignore). Both SDA+SCL required. |
-| 5 | **Pass** | Accel stream; tilt on pitch/roll, not `|a|`. |
+| 5 | **Pass** | Accel stream; tilt on pitch/roll, not raw magnitude. |
 | 6 | **Pass** | TFT SPI fill R→G→B. |
 | 7 | **Pass** | HP → STA/LTA EVENT; PGA → MMI I–XII; idle MMI 0; ±8 g for XII. |
 

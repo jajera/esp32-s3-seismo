@@ -4,7 +4,7 @@ Thump the desk or tap the IMU: after a short **warmup**, **EVENT** fires from **
 
 ![As built — TFT showing MMI 10.0 after a hard slam, IMU left, ESP32-S3 right](../assets/07-intensity-ui-demo.png)
 
-*As built — a hard slam drives MMI to 10, orange bar full, waveform spiking. IMU (left), ESP32-S3 (right), colour-coded jumpers across the star.*
+As built — a hard slam drives MMI to 10, orange bar full, waveform spiking. IMU (left), ESP32-S3 (right), colour-coded jumpers across the star.
 
 ## Firmware
 
@@ -55,10 +55,13 @@ flowchart LR
 
 Raw instrumental estimate (no desk attenuation factor):
 
-!!! abstract "Intensity formula"
-    **MMI = 3.66 · log₁₀(PGA) − 1.66**
+Wald et al. 1999 (instrumental estimate, no desk fudge factor):
 
-    PGA in **cm/s²**, clamped to **I–XII**. Idle below `PGA_QUIET_G` → **0**.
+```text
+MMI = 3.66 * log10(PGA_cm_per_s2) - 1.66
+```
+
+PGA in cm/s², then clamped to I–XII. Idle below `PGA_QUIET_G` shows 0.
 
 | Sensor PGA | ≈ MMI |
 |------------|-------|

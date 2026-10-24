@@ -4,11 +4,11 @@ A desk seismometer you can wire yourself — thump the table, watch the intensit
 
 ![As built — TFT showing MMI 10.0 after a slam, IMU left, ESP32-S3 right](./assets/07-intensity-ui-demo.png)
 
-*The finished station — a desk slam drives MMI to 10, orange bar full, waveform spiking.*
+The finished station — a desk slam drives MMI to 10, orange bar full, waveform spiking.
 
 ![ESP32-S3 N16R8 DevKitC-class board, components side](./assets/esp32s3-board-top.png)
 
-*N16R8 · dual Type-C · the brain of the station*
+N16R8, dual Type-C — the brain of the station.
 
 ## Story
 
@@ -21,7 +21,7 @@ v1 bring-up runs through Phase 7 and is done. Each phase stays a frozen snapshot
 
 ![High-level block diagram: ESP32-S3 with IMU over I2C and TFT over SPI](./assets/overview-blocks.svg)
 
-*The shape of it — S3 talks to the IMU over I2C and the TFT over SPI. Pin-level wiring is on the [Hardware](hardware.md) page.*
+The shape of it — S3 talks to the IMU over I2C and the TFT over SPI. Pin-level wiring is on the [Hardware](hardware.md) page.
 
 ## Start here
 
